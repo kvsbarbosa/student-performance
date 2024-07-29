@@ -1,0 +1,40 @@
+**Atributos para os conjuntos de dados student-mat.csv (curso de Matemática) e student-por.csv (curso de Português):**
+
+1. **escola** - escola do aluno (binário: "GP" - Gabriel Pereira ou "MS" - Mousinho da Silveira)
+2. **sexo** - sexo do aluno (binário: "F" - feminino ou "M" - masculino)
+3. **idade** - idade do aluno (numérico: de 15 a 22 anos)
+4. **endereco** - tipo de endereço do aluno (binário: "U" - urbano ou "R" - rural)
+5. **tamanho_familia** - tamanho da família (binário: "LE3" - menor ou igual a 3 ou "GT3" - maior que 3)
+6. **status_pais** - status de coabitação dos pais (binário: "T" - vivendo juntos ou "A" - separados)
+7. **educ_mae** - educação da mãe (numérico: 0 - nenhuma, 1 - educação primária (4ª série), 2 – 5ª a 9ª série, 3 – educação secundária ou 4 – educação superior)
+8. **educ_pai** - educação do pai (numérico: 0 - nenhuma, 1 - educação primária (4ª série), 2 – 5ª a 9ª série, 3 – educação secundária ou 4 – educação superior)
+9. **trabalho_mae** - trabalho da mãe (nominal: "teacher" - professora, "health" - relacionado à saúde, "services" - serviços civis (ex.: administrativo ou policial), "at_home" - em casa ou "other" - outro)
+10. **trabalho_pai** - trabalho do pai (nominal: "teacher" - professor, "health" - relacionado à saúde, "services" - serviços civis (ex.: administrativo ou policial), "at_home" - em casa ou "other" - outro)
+11. **motivo** - razão para escolher esta escola (nominal: "close to home" - perto de casa, "reputation" - reputação da escola, "course" - preferência pelo curso ou "other" - outro)
+12. **responsavel** - responsável pelo aluno (nominal: "mother" - mãe, "father" - pai ou "other" - outro)
+13. **tempo_viagem_ate_escola** - tempo de viagem de casa até a escola (numérico: 1 - <15 min., 2 - 15 a 30 min., 3 - 30 min. a 1 hora ou 4 - >1 hora)
+14. **tempo_estudo** - tempo de estudo semanal (numérico: 1 - <2 horas, 2 - 2 a 5 horas, 3 - 5 a 10 horas ou 4 - >10 horas)
+15. **reprovacoes** - número de reprovações anteriores (numérico: n se 1<=n<3, senão 4)
+16. **suporte_escola** - apoio educacional extra (binário: sim ou não)
+17. **suporte_familia** - apoio educacional familiar (binário: sim ou não)
+18. **aulas_pagas** - aulas pagas extra dentro da disciplina (Matemática ou Português) (binário: sim ou não)
+19. **atividades** - atividades extracurriculares (binário: sim ou não)
+20. **creche** - frequentou a escola infantil (binário: sim ou não)
+21. **educ_superior** - deseja fazer educação superior (binário: sim ou não)
+22. **internet** - acesso à Internet em casa (binário: sim ou não)
+23. **relacionamento** - relacionamento romântico (binário: sim ou não)
+24. **relacoes_familiares** - qualidade das relações familiares (numérico: de 1 - muito ruim a 5 - excelente)
+25. **tempo_livre** - tempo livre após a escola (numérico: de 1 - muito baixo a 5 - muito alto)
+26. **sair** - sair com amigos (numérico: de 1 - muito baixo a 5 - muito alto)
+27. **alcool_semana** - consumo de álcool durante a semana (numérico: de 1 - muito baixo a 5 - muito alto)
+28. **alcool_fds** - consumo de álcool no fim de semana (numérico: de 1 - muito baixo a 5 - muito alto)
+29. **saude** - estado de saúde atual (numérico: de 1 - muito ruim a 5 - muito bom)
+30. **faltas** - número de faltas escolares (numérico: de 0 a 93)
+
+**Notas adicionais:** Existem vários (382) alunos que pertencem a ambos os conjuntos de dados. Esses alunos podem ser identificados ao procurar por atributos idênticos que caracterizam cada aluno, conforme mostrado no arquivo R anexado.
+
+**Notas do curso:**
+
+31. **nota_periodo1** - nota do aluno no primeiro período (numérico: de 0 a 20)
+32. **nota_periodo2** - nota do aluno no segundo período (numérico: de 0 a 20)
+33. **nota_final** - nota final do aluno (numérico: de 0 a 20, alvo de saída)
